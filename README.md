@@ -1,8 +1,8 @@
-# Python-Estudos
-Repositório de Estudo da linguagem Python 
-- Fundamentos 
-- Orientação a Objetos
-- Estrutura de Dados
+# Python
+Python language study repository
+- Foundations
+- Object Orientation
+- Data Structure
 - Collections
-- Bibliotecas
-- Outros
+- Libraries
+- Others
