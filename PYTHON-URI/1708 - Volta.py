@@ -1,0 +1,24 @@
+# URI 1708
+# CLEVERSON MENDES FARIA
+
+# LOGICA UTILIZADA
+# QUANDO A DIFERENÇA ACUMULADA ENTRE O TEMPO GASTO DO PRIMEIRO PILOTO >= 
+# AO TEMPO EM QUE O SEGUNDO PILOTO LEVA PARA REALIZAR SUA VOLTA
+# DEVE SE PARAR O LOOP. O RESULTADO SERÁ O INDICE ATUAL DO LOOP 
+
+entradas = input().split() # SEPARA AS ENTRADAS APOS O ESPAÇO
+
+pp = int(entradas[0]) # TEMPO PRIMEIRO PILOTO
+up = int(entradas[1]) # TEMPO SEGUNDO PILOTO
+
+dif_inicial = up - pp # DIFERENÇA INICIAL 
+dif_acum = 0          # DIFERENÇA ACUMULADA
+lap = 0               # CONTADOR
+
+while dif_acum < up: # ENQUANTO DIFERENÇA ACUMULADA DO PRIMEIRO PILOTO FOR MENOR 
+                     # AO TEMPO GASTO DO SEGUNDO COLOCADO FAÇA
+                      
+    dif_acum += dif_inicial
+    lap = lap + 1
+
+print(lap)
