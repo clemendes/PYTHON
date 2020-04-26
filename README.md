@@ -1,4 +1,4 @@
-# Python
+## Python
 Python language study repository
 - Foundations
 - Object Orientation
