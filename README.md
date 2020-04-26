@@ -6,6 +6,3 @@ Python language study repository
 - Collections
 - Libraries
 - Others
-
-Python Best Practices: 
-- https://data-flair.training/blogs/python-best-practices/
