@@ -1,4 +1,4 @@
-# Python
+## Python
 Python language study repository
 - Foundations
 - Object Orientation
@@ -6,6 +6,3 @@ Python language study repository
 - Collections
 - Libraries
 - Others
-
-Python Best Practices: 
-- https://data-flair.training/blogs/python-best-practices/
